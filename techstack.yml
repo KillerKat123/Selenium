@@ -1,8 +1,8 @@
 repo_name: DotEspartoORGForPersonal/Selenium
-report_id: e041c4b4a30034541ac165d49f21e00d
+report_id: 321b156c28d2c2ddf1127b8f89d80ae9
 version: 0.1
 repo_type: Public
-timestamp: '2024-01-02T14:08:19+00:00'
+timestamp: '2024-01-08T15:17:10+00:00'
 requested_by: Bhautikdotesparto
 provider: github
 branch: main
@@ -17,6 +17,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/995/K85ZWV2F.png
+  detection_source_url: https://github.com/DotEspartoORGForPersonal/Selenium
   detection_source: Repo Metadata
 - name: MySQL
   description: The world's most popular open source database
@@ -26,6 +27,7 @@ tools:
   category: Data Stores
   sub_category: Databases
   image_url: https://img.stackshare.io/service/1025/logo-mysql-170x170.png
+  detection_source_url: https://github.com/DotEspartoORGForPersonal/Selenium/blob/main/DataDrivenFramwork/pom.xml
   detection_source: DataDrivenFramwork/pom.xml
   last_updated_by: Bhautik
   last_updated_on: 2022-11-16 11:28:48.000000000 Z
@@ -37,6 +39,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/DotEspartoORGForPersonal/Selenium
   detection_source: Repo Metadata
 - name: Log4j
   description: A Java-based logging utility
@@ -61,6 +64,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Testing Frameworks
   image_url: https://img.stackshare.io/service/8900/no-img-open-source.png
+  detection_source_url: https://github.com/DotEspartoORGForPersonal/Selenium/blob/main/DataDrivenFramwork/pom.xml
   detection_source: DataDrivenFramwork/pom.xml
   last_updated_by: Bhautik
   last_updated_on: 2022-11-16 11:28:48.000000000 Z

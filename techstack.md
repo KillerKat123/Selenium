@@ -30,7 +30,7 @@ Full tech stack [here](/techstack.md)
 # Tech Stack File
 ![](https://img.stackshare.io/repo.svg "repo") [DotEspartoORGForPersonal/Selenium](https://github.com/DotEspartoORGForPersonal/Selenium)![](https://img.stackshare.io/public_badge.svg "public")
 <br/><br/>
-|7<br/>Tools used|01/12/24 <br/>Report generated|
+|6<br/>Tools used|01/18/24 <br/>Report generated|
 |------|------|
 </div>
 
@@ -75,7 +75,7 @@ Full tech stack [here](/techstack.md)
   <br>
   <sub><a href="https://logging.apache.org/log4j/2.x/">Log4j</a></sub>
   <br>
-  <sub>v1.2.20</sub>
+  <sub>v1.2.22</sub>
 </td>
 
 <td align='center'>
@@ -90,14 +90,13 @@ Full tech stack [here](/techstack.md)
 </table>
 
 
-## <img src='https://img.stackshare.io/group.svg' /> Open source packages (2)</h2>
+## <img src='https://img.stackshare.io/group.svg' /> Open source packages (1)</h2>
 
-## <img width='24' height='24' src='https://img.stackshare.io/package_manager/977/default_9833f2ef0bbc2a946b4cc5e9307264033361076b.png'/> Apache Maven (2)
+## <img width='24' height='24' src='https://img.stackshare.io/package_manager/977/default_9833f2ef0bbc2a946b4cc5e9307264033361076b.png'/> Apache Maven (1)
 
 |NAME|VERSION|LAST UPDATED|LAST UPDATED BY|LICENSE|VULNERABILITIES|
 |:------|:------|:------|:------|:------|:------|
-|[commons-io:commons-io](http://commons.apache.org/proper/commons-io/)|v2.6|11/16/22|Bhautik |Apache-2.0|[CVE-2021-29425](https://github.com/advisories/GHSA-gwrp-pvrq-jmwv) (Moderate)|
-|[mysql:mysql-connector-java](http://dev.mysql.com/doc/connector-j/en/)|v8.0.12|11/16/22|Bhautik |GPL-3.0-only|[CVE-2018-3258](https://github.com/advisories/GHSA-4vrv-ch96-6h42) (High)<br/>[CVE-2019-2692](https://github.com/advisories/GHSA-jcq3-cprp-m333) (Moderate)<br/>[CVE-2021-2471](https://github.com/advisories/GHSA-w6f2-8wx4-47r5) (Moderate)<br/>[CVE-2022-21363](https://github.com/advisories/GHSA-g76j-4cxx-23h9) (Moderate)|
+|[mysql:mysql-connector-java](http://dev.mysql.com/doc/connector-j/en/)|v8.0.10|11/16/22|Bhautik |GPL-3.0-only|[CVE-2018-3258](https://github.com/advisories/GHSA-4vrv-ch96-6h42) (High)<br/>[CVE-2019-2692](https://github.com/advisories/GHSA-jcq3-cprp-m333) (Moderate)<br/>[CVE-2021-2471](https://github.com/advisories/GHSA-w6f2-8wx4-47r5) (Moderate)<br/>[CVE-2022-21363](https://github.com/advisories/GHSA-g76j-4cxx-23h9) (Moderate)|
 
 <br/>
 <div align='center'>

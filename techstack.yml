@@ -1,12 +1,12 @@
 repo_name: DotEspartoORGForPersonal/Selenium
-report_id: 3b4ff60ea41e13efd2740c44659c4652
+report_id: 2e6f37c9a10f9509ca60177582c25f56
 version: 0.1
 repo_type: Public
-timestamp: '2024-01-12T19:01:02+00:00'
-requested_by: Bhautikdotesparto
+timestamp: '2024-01-18T13:43:12+00:00'
+requested_by: DotEsparto1
 provider: github
 branch: main
-detected_tools_count: 7
+detected_tools_count: 6
 tools:
 - name: Java
   description: A concurrent, class-based, object-oriented, language specifically designed
@@ -44,7 +44,7 @@ tools:
 - name: Log4j
   description: A Java-based logging utility
   website_url: https://logging.apache.org/log4j/2.x/
-  version: 1.2.20
+  version: 1.2.22
   license: Apache-2.0
   open_source: true
   hosted_saas: false
@@ -54,7 +54,7 @@ tools:
   detection_source_url: https://github.com/DotEspartoORGForPersonal/Selenium/blob/main/DataDrivenFramwork/pom.xml
   detection_source: DataDrivenFramwork/pom.xml
   last_updated_by: DotEsparto1
-  last_updated_on: 2023-11-15 15:53:06.000000000 Z
+  last_updated_on: 2024-01-16 18:33:36.000000000 Z
 - name: TestNG
   description: A testing framework inspired from JUnit and NUnit
   website_url: http://testng.org/doc/
@@ -68,29 +68,9 @@ tools:
   detection_source: DataDrivenFramwork/pom.xml
   last_updated_by: Bhautik
   last_updated_on: 2022-11-16 11:28:48.000000000 Z
-- name: commons-io:commons-io
-  description: The Apache Commons IO library contains utility classes
-  version: '2.6'
-  license: Apache-2.0
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: Maven Packages
-  image_url: https://img.stackshare.io/package/maven/image.png
-  detection_source_url: https://github.com/DotEspartoORGForPersonal/Selenium/blob/main/DataDrivenFramwork/pom.xml
-  detection_source: DataDrivenFramwork/pom.xml
-  last_updated_by: Bhautik
-  last_updated_on: 2022-11-16 11:28:48.000000000 Z
-  vulnerabilities:
-  - name: Path Traversal and Improper Input Validation in Apache Commons IO
-    cve_id: CVE-2021-29425
-    cve_url: https://github.com/advisories/GHSA-gwrp-pvrq-jmwv
-    detected_date: Aug 22
-    severity: moderate
-    first_patched: '2.7'
 - name: mysql:mysql-connector-java
   description: MySQL JDBC Type 4 driver
-  version: 8.0.12
+  version: 8.0.10
   license: GPL-3.0-only
   open_source: true
   hosted_saas: false

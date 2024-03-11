@@ -30,7 +30,7 @@ Full tech stack [here](/techstack.md)
 # Tech Stack File
 ![](https://img.stackshare.io/repo.svg "repo") [DotEspartoORGForPersonal/Selenium](https://github.com/DotEspartoORGForPersonal/Selenium)![](https://img.stackshare.io/public_badge.svg "public")
 <br/><br/>
-|6<br/>Tools used|03/08/24 <br/>Report generated|
+|6<br/>Tools used|03/11/24 <br/>Report generated|
 |------|------|
 </div>
 

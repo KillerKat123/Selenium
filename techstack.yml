@@ -1,9 +1,9 @@
 repo_name: DotEspartoORGForPersonal/Selenium
-report_id: 7b696f56cce48ffeebf620ed26c1eef8
+report_id: 046a2970e0cf0d7fa0dbe616f7d9db1f
 version: 0.1
 repo_type: Public
-timestamp: '2024-03-11T15:18:33+00:00'
-requested_by: DotEsparto1
+timestamp: '2024-03-12T16:14:00+00:00'
+requested_by: BhautikBacancy
 provider: github
 branch: main
 detected_tools_count: 6
@@ -44,7 +44,7 @@ tools:
 - name: Log4j
   description: A Java-based logging utility
   website_url: https://logging.apache.org/log4j/2.x/
-  version: 1.2.21
+  version: 1.2.20
   license: Apache-2.0
   open_source: true
   hosted_saas: false

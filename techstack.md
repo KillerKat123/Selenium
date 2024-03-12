@@ -30,7 +30,7 @@ Full tech stack [here](/techstack.md)
 # Tech Stack File
 ![](https://img.stackshare.io/repo.svg "repo") [DotEspartoORGForPersonal/Selenium](https://github.com/DotEspartoORGForPersonal/Selenium)![](https://img.stackshare.io/public_badge.svg "public")
 <br/><br/>
-|6<br/>Tools used|03/11/24 <br/>Report generated|
+|6<br/>Tools used|03/12/24 <br/>Report generated|
 |------|------|
 </div>
 
@@ -75,7 +75,7 @@ Full tech stack [here](/techstack.md)
   <br>
   <sub><a href="https://logging.apache.org/log4j/2.x/">Log4j</a></sub>
   <br>
-  <sub>v1.2.21</sub>
+  <sub>v1.2.20</sub>
 </td>
 
 <td align='center'>

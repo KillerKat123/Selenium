@@ -1,12 +1,12 @@
-repo_name: DotEsparto1/Selenium
-report_id: a1459582a60a4e14e10714d2f7388426
+repo_name: KillerKat123/Selenium
+report_id: 5bf2b403d173883dcf19245ae72724cb
 version: 0.1
 repo_type: Public
-timestamp: '2024-03-15T13:56:37+00:00'
+timestamp: '2024-03-15T14:14:46+00:00'
 requested_by: DotEsparto1
 provider: github
 branch: main
-detected_tools_count: 5
+detected_tools_count: 17
 tools:
 - name: Java
   description: A concurrent, class-based, object-oriented, language specifically designed
@@ -17,7 +17,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/995/K85ZWV2F.png
-  detection_source_url: https://github.com/DotEsparto1/Selenium
+  detection_source_url: https://github.com/KillerKat123/Selenium
   detection_source: Repo Metadata
 - name: Git
   description: Fast, scalable, distributed revision control system
@@ -27,7 +27,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
-  detection_source_url: https://github.com/DotEsparto1/Selenium
+  detection_source_url: https://github.com/KillerKat123/Selenium
   detection_source: Repo Metadata
 - name: Log4j
   description: A Java-based logging utility
@@ -38,7 +38,7 @@ tools:
   category: Monitoring
   sub_category: Logging Tools
   image_url: https://img.stackshare.io/service/2804/Coralogix-log4j-integration.jpg
-  detection_source_url: https://github.com/DotEsparto1/Selenium/blob/main/DataDrivenFramwork/pom.xml
+  detection_source_url: https://github.com/KillerKat123/Selenium/blob/main/DataDrivenFramwork/pom.xml
   detection_source: DataDrivenFramwork/pom.xml
   last_updated_by: DotEsparto1
   last_updated_on: 2024-03-15 12:33:24.000000000 Z
@@ -51,10 +51,23 @@ tools:
   category: Build, Test, Deploy
   sub_category: Testing Frameworks
   image_url: https://img.stackshare.io/service/8900/no-img-open-source.png
-  detection_source_url: https://github.com/DotEsparto1/Selenium/blob/main/DataDrivenFramwork/pom.xml
+  detection_source_url: https://github.com/KillerKat123/Selenium/blob/main/DataDrivenFramwork/pom.xml
   detection_source: DataDrivenFramwork/pom.xml
   last_updated_by: Bhautik
   last_updated_on: 2022-11-16 11:28:48.000000000 Z
+- name: com.aventstack:extentreports
+  description: Extent Framework
+  version: 5.0.9
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/KillerKat123/Selenium/blob/main/DataDrivenFramwork/pom.xml
+  detection_source: DataDrivenFramwork/pom.xml
+  last_updated_by: DotEsparto1
+  last_updated_on: 2024-03-15 12:33:24.000000000 Z
 - name: commons-io:commons-io
   description: The Apache Commons IO library contains utility classes
   version: '2.6'
@@ -64,7 +77,7 @@ tools:
   category: Libraries
   sub_category: Maven Packages
   image_url: https://img.stackshare.io/package/maven/image.png
-  detection_source_url: https://github.com/DotEsparto1/Selenium/blob/main/DataDrivenFramwork/pom.xml
+  detection_source_url: https://github.com/KillerKat123/Selenium/blob/main/DataDrivenFramwork/pom.xml
   detection_source: DataDrivenFramwork/pom.xml
   last_updated_by: DotEsparto1
   last_updated_on: 2024-03-15 12:33:24.000000000 Z
@@ -75,3 +88,260 @@ tools:
     detected_date: Aug 22
     severity: moderate
     first_patched: '2.7'
+- name: io.github.bonigarcia:webdrivermanager
+  description: Automatic Selenium WebDriver binaries management in runtime for Java
+  version: 5.6.2
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/KillerKat123/Selenium/blob/main/DataDrivenFramwork/pom.xml
+  detection_source: DataDrivenFramwork/pom.xml
+  last_updated_by: DotEsparto1
+  last_updated_on: 2024-03-15 12:33:24.000000000 Z
+- name: org.apache.logging.log4j:log4j-api
+  description: The Apache Log4j API
+  version: 2.14.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/KillerKat123/Selenium/blob/main/DataDrivenFramwork/pom.xml
+  detection_source: DataDrivenFramwork/pom.xml
+  last_updated_by: DotEsparto1
+  last_updated_on: 2024-03-15 12:33:24.000000000 Z
+  vulnerabilities:
+  - name: Incomplete fix for Apache Log4j vulnerability
+    cve_id: CVE-2021-45046
+    cve_url: https://github.com/advisories/GHSA-7rjr-3q55-vv33
+    detected_date: Dec 14
+    severity: critical
+    first_patched: 2.16.0
+  - name: Remote code injection in Log4j
+    cve_id: CVE-2021-44228
+    cve_url: https://github.com/advisories/GHSA-jfh8-c2jp-5v3q
+    detected_date: Dec 14
+    severity: critical
+    first_patched: 2.15.0
+  - name: Improper Input Validation and Uncontrolled Recursion in Apache Log4j2
+    cve_id: CVE-2021-45105
+    cve_url: https://github.com/advisories/GHSA-p6xc-xr62-6r2g
+    detected_date: Dec 19
+    severity: high
+    first_patched: 2.17.0
+  - name: Improper Input Validation and Injection in Apache Log4j2
+    cve_id: CVE-2021-44832
+    cve_url: https://github.com/advisories/GHSA-8489-44mv-ggj8
+    detected_date: Jan 5
+    severity: moderate
+    first_patched: 2.17.1
+- name: org.apache.logging.log4j:log4j-core
+  description: The Apache Log4j Implementation
+  version: 2.14.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/KillerKat123/Selenium/blob/main/DataDrivenFramwork/pom.xml
+  detection_source: DataDrivenFramwork/pom.xml
+  last_updated_by: DotEsparto1
+  last_updated_on: 2024-03-15 12:33:24.000000000 Z
+  vulnerabilities:
+  - name: Incomplete fix for Apache Log4j vulnerability
+    cve_id: CVE-2021-45046
+    cve_url: https://github.com/advisories/GHSA-7rjr-3q55-vv33
+    detected_date: Dec 14
+    severity: critical
+    first_patched: 2.16.0
+  - name: Remote code injection in Log4j
+    cve_id: CVE-2021-44228
+    cve_url: https://github.com/advisories/GHSA-jfh8-c2jp-5v3q
+    detected_date: Dec 14
+    severity: critical
+    first_patched: 2.15.0
+  - name: Apache Log4j2 vulnerable to Improper Input Validation and Uncontrolled Recursion
+    cve_id: CVE-2021-45105
+    cve_url: https://github.com/advisories/GHSA-p6xc-xr62-6r2g
+    detected_date: Dec 19
+    severity: high
+    first_patched: 2.17.0
+  - name: Improper Input Validation and Injection in Apache Log4j2
+    cve_id: CVE-2021-44832
+    cve_url: https://github.com/advisories/GHSA-8489-44mv-ggj8
+    detected_date: Jan 5
+    severity: moderate
+    first_patched: 2.17.1
+- name: org.apache.poi:ooxml-schemas
+  description: 'XmlBeans generated from the Ecma supplied xsds: http://www.ecma-international.org/publications/files/ECMA-ST/Office%20Open%20XML%20Part%204%20'
+  version: '1.1'
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/KillerKat123/Selenium/blob/main/DataDrivenFramwork/pom.xml
+  detection_source: DataDrivenFramwork/pom.xml
+  last_updated_by: DotEsparto1
+  last_updated_on: 2024-03-15 12:33:24.000000000 Z
+- name: org.apache.poi:poi
+  description: Apache POI - Java API To Access Microsoft Format Files
+  version: '3.9'
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/KillerKat123/Selenium/blob/main/DataDrivenFramwork/pom.xml
+  detection_source: DataDrivenFramwork/pom.xml
+  last_updated_by: DotEsparto1
+  last_updated_on: 2024-03-15 12:33:24.000000000 Z
+  vulnerabilities:
+  - name: Denial of Service in Apache POI
+    cve_id: CVE-2017-12626
+    cve_url: https://github.com/advisories/GHSA-523c-xh4g-mh5m
+    detected_date: Aug 22
+    severity: high
+    first_patched: '3.17'
+  - name: Denial of Service in Apache POI
+    cve_id: CVE-2012-0213
+    cve_url: https://github.com/advisories/GHSA-jqx5-h2hw-5q4f
+    detected_date: Aug 16
+    severity: moderate
+    first_patched: 3.10-beta1
+  - name: Improper Restriction of XML External Entity Reference in Apache POI
+    cve_id: CVE-2014-3529
+    cve_url: https://github.com/advisories/GHSA-q56h-jjj6-52mf
+    detected_date: Jul 8
+    severity: moderate
+    first_patched: 3.10.1
+  - name: Improper Restriction of XML External Entity Reference in Apache POI
+    cve_id: CVE-2016-5000
+    cve_url: https://github.com/advisories/GHSA-pmqq-7wfv-jfff
+    detected_date: Jul 7
+    severity: moderate
+    first_patched: '3.14'
+  - name: Improper Input Validation in Apache POI
+    cve_id: CVE-2014-3574
+    cve_url: https://github.com/advisories/GHSA-5wfp-8643-c58x
+    detected_date: Aug 16
+    severity: moderate
+    first_patched: 3.10.1
+  - name: Improper Restriction of Recursive Entity References in DTDs in Apache POI
+    cve_id: CVE-2017-5644
+    cve_url: https://github.com/advisories/GHSA-78vv-qj73-h9m5
+    detected_date: Jul 2
+    severity: moderate
+    first_patched: '3.15'
+  - name: 'Improper Restriction of XML External Entity Reference in Apache POI '
+    cve_id: CVE-2019-12415
+    cve_url: https://github.com/advisories/GHSA-9jwc-q6j3-8g9g
+    detected_date: Jun 29
+    severity: moderate
+    first_patched: 4.1.1
+  - name: Loop with Unreachable Exit Condition in Apache POI
+    cve_id: CVE-2014-9527
+    cve_url: https://github.com/advisories/GHSA-x9mm-6gpf-f749
+    detected_date: Jul 7
+    severity: moderate
+    first_patched: '3.11'
+- name: org.apache.poi:poi-ooxml
+  description: Apache POI - Java API To Access Microsoft Format Files
+  version: '3.9'
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/KillerKat123/Selenium/blob/main/DataDrivenFramwork/pom.xml
+  detection_source: DataDrivenFramwork/pom.xml
+  last_updated_by: DotEsparto1
+  last_updated_on: 2024-03-15 12:33:24.000000000 Z
+- name: org.apache.poi:poi-ooxml-schemas
+  description: Apache POI - Java API To Access Microsoft Format Files
+  version: '3.9'
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/KillerKat123/Selenium/blob/main/DataDrivenFramwork/pom.xml
+  detection_source: DataDrivenFramwork/pom.xml
+  last_updated_by: DotEsparto1
+  last_updated_on: 2024-03-15 12:33:24.000000000 Z
+- name: org.apache.poi:poi-scratchpad
+  description: Apache POI - Java API To Access Microsoft Format Files
+  version: '3.9'
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/KillerKat123/Selenium/blob/main/DataDrivenFramwork/pom.xml
+  detection_source: DataDrivenFramwork/pom.xml
+  last_updated_by: DotEsparto1
+  last_updated_on: 2024-03-15 12:33:24.000000000 Z
+  vulnerabilities:
+  - name: Denial of Service in Apache POI
+    cve_id: CVE-2012-0213
+    cve_url: https://github.com/advisories/GHSA-jqx5-h2hw-5q4f
+    detected_date: Sep 27
+    severity: moderate
+    first_patched: 3.10-beta1
+  - name: Improper Input Validation and Allocation of Resources Without Limits or
+      Throttling in poi-scratchpad
+    cve_id: CVE-2022-26336
+    cve_url: https://github.com/advisories/GHSA-mqvp-7rrg-9jxc
+    detected_date: Mar 9
+    severity: moderate
+    first_patched: 5.2.1
+- name: org.seleniumhq.selenium:selenium-java
+  description: Selenium automates browsers
+  version: 3.14.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/KillerKat123/Selenium/blob/main/DataDrivenFramwork/pom.xml
+  detection_source: DataDrivenFramwork/pom.xml
+  last_updated_by: DotEsparto1
+  last_updated_on: 2024-03-15 12:33:24.000000000 Z
+- name: org.testng:testng
+  description: Testing framework for Java
+  version: '6.11'
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/KillerKat123/Selenium/blob/main/DataDrivenFramwork/pom.xml
+  detection_source: DataDrivenFramwork/pom.xml
+  last_updated_by: DotEsparto1
+  last_updated_on: 2024-03-15 12:33:24.000000000 Z
+- name: org.uncommons:reportng
+  description: ReportNG is a simple HTML reporting plug-in for the TestNG unit-testing
+    framework
+  version: 1.1.4
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/KillerKat123/Selenium/blob/main/DataDrivenFramwork/pom.xml
+  detection_source: DataDrivenFramwork/pom.xml
+  last_updated_by: DotEsparto1
+  last_updated_on: 2024-03-15 12:33:24.000000000 Z

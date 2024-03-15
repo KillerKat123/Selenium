@@ -1,7 +1,7 @@
 <!--
 &lt;--- Readme.md Snippet without images Start ---&gt;
 ## Tech Stack
-DotEspartoORGForPersonal/Selenium is built on the following main stack:
+DotEsparto1/Selenium is built on the following main stack:
 
 - [Java](https://www.java.com) – Languages
 - [MySQL](http://www.mysql.com) – Databases
@@ -14,7 +14,7 @@ Full tech stack [here](/techstack.md)
 
 &lt;--- Readme.md Snippet with images Start ---&gt;
 ## Tech Stack
-DotEspartoORGForPersonal/Selenium is built on the following main stack:
+DotEsparto1/Selenium is built on the following main stack:
 
 - <img width='25' height='25' src='https://img.stackshare.io/service/995/K85ZWV2F.png' alt='Java'/> [Java](https://www.java.com) – Languages
 - <img width='25' height='25' src='https://img.stackshare.io/service/1025/logo-mysql-170x170.png' alt='MySQL'/> [MySQL](http://www.mysql.com) – Databases
@@ -28,9 +28,9 @@ Full tech stack [here](/techstack.md)
 <div align="center">
 
 # Tech Stack File
-![](https://img.stackshare.io/repo.svg "repo") [DotEspartoORGForPersonal/Selenium](https://github.com/DotEspartoORGForPersonal/Selenium)![](https://img.stackshare.io/public_badge.svg "public")
+![](https://img.stackshare.io/repo.svg "repo") [DotEsparto1/Selenium](https://github.com/DotEsparto1/Selenium)![](https://img.stackshare.io/public_badge.svg "public")
 <br/><br/>
-|6<br/>Tools used|03/14/24 <br/>Report generated|
+|6<br/>Tools used|03/15/24 <br/>Report generated|
 |------|------|
 </div>
 
